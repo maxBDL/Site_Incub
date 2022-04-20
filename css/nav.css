@@ -1,0 +1,138 @@
+    .topnav {
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+    background-color: #8ed6da;
+  }
+  
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: #8ed6da;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+    height: 50px;
+        color: white;
+  }
+  .active a{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0;
+    width: 200px;
+  }
+  
+  .active a p{
+      width: 150px;
+      margin: 0;
+      color: #000;
+      line-height: 100%;
+      align-self: center;
+      margin-left: 15px;
+  }
+
+  .active a img{
+    width: 50px;
+    height: 50px;
+}
+
+.header_content{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.title_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1{
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.title_part1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_part1 + p{
+    margin: 0;
+    font-weight: lighter;
+    position: relative;
+    top: -20px;
+}
+
+.title_part1 b{
+    margin: 0;
+    height: 50px;
+    line-height: 50px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.title_part1 img{
+    height: 25px;
+    width: 25px;
+}
+
+.title + img{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 50vh;
+}
+
+.header_img{
+    width: 80%;
+    height: auto;
+    
+}
+
+.header_img img{
+    border-radius: 50px;
+    -webkit-box-shadow: 15px 20px 15px 5px #8ED6DA; 
+    box-shadow: 15px 20px 15px 5px #8ED6DA;
+}
+
+
