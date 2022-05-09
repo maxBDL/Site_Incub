@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 75px;
 }
 
 .second_row, .first_row{
@@ -17,6 +18,8 @@
 
 .card_user{
     width: 25%;
+    min-height: 200px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
